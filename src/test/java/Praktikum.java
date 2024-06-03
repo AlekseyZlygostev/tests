@@ -120,7 +120,7 @@ public class Praktikum {
         // создай объект класса страницы авторизации
         LoginPageMesto objLoginPage = new LoginPageMesto(driver);
         // выполни авторизацию
-        objLoginPage.login("zlygostev-7@mail.ru", "1366613");
+        objLoginPage.login("tester-123@mail.ru", "test123");
 
         // создай объект класса главной страницы приложения
         HomePageMesto objHomePage = new HomePageMesto(driver);
