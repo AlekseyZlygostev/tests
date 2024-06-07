@@ -111,9 +111,9 @@ public class Praktikum {
     @Test
     public void checkActivity() {
         // драйвер для браузера Chrome
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--no-sandbox", "--headless", "--disable-dev-shm-usage");
-        driver = new ChromeDriver(options);
+        //ChromeOptions options = new ChromeOptions();
+        //options.addArguments("--no-sandbox", "--headless", "--disable-dev-shm-usage");
+        driver = new ChromeDriver();
         // переход на страницу тестового приложения
         driver.get("https://qa-mesto.praktikum-services.ru/");
 
